@@ -10,7 +10,7 @@ int count_words(FILE *file){
 	int count = -1;
 
 	/* TO-DO: add code for counting words */
-	/* TIP: use function fscanf (for read file/words) in a while ti*/
+	/* TIP: use function fscanf (for read file/words) in a while tilin*/
 
 	return count;
 }
