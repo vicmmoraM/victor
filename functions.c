@@ -11,6 +11,13 @@ int count_words(FILE *file){
 
 	/* TO-DO: add code for counting words */
 	/* TIP: use function fscanf (for read file/words) in a while tilin*/
-
+	
+	char  palabra[MAXWORD];
+	int n = 0;
+	if(file != NULL){
+		count = 0;
+		while((n = fscanf(file, "%s", palabra)) > 0)
+			count++;
+	}
 	return count;
 }
